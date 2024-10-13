@@ -46,7 +46,6 @@ L’application est déployée sur [shinyapps.io](https://www.shinyapps.io). Pou
 - **app.R** : Fichier principal contenant le code Shiny de l'application.
 - **ui.R** : Interface utilisateur (UI) de l'application.
 - **server.R** : Logique serveur pour traiter les données et gérer les interactions.
-- **data/** : Contient les fichiers de données utilisés pour l'analyse.
 - **www/** : Contient les fichiers statiques comme les images et le CSS.
 
 ## Packages utilisés
@@ -57,7 +56,6 @@ L’application repose sur plusieurs packages R, parmi lesquels :
 - `ggplot2` pour la génération des graphiques.
 - `dplyr` pour le traitement des données.
 - `shinymanager` pour la gestion de l'authentification.
-- `httr` pour l'intégration avec des API externes.
 
 
 ## Auteurs
